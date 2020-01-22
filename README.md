@@ -1,2 +1,2 @@
 # MumbaiTechies
-Sharing common resources for Mumbai Techies
+For sharing common resources with Mumbai Techies
