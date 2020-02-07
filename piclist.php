@@ -1,8 +1,9 @@
 <?php
-$dirname = ".";
+$dirname = "/var/www/html/";
 $images = glob($dirname."*.png");
-
 foreach($images as $image) {
-    echo '<img src="'.$image.'" /><br />';
+echo $image;
+    echo '<img src="'.$image.'" /><br/>';
 }
+echo 'testv1'
 ?>
