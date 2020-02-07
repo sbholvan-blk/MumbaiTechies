@@ -1,9 +1,10 @@
 <?php
-$dirname = "/var/www/html/";
+$dirname = "/var/www/html/MumbaiTechies/";
 $images = glob($dirname."*.jpeg");
 foreach($images as $image) {
 echo $image;
     echo '<img src="'.$image.'" /><br/>';
 }
-echo 'testv1'
+echo '<img sec="nature.jpeg" />';
+echo 'testv1';
 ?>
